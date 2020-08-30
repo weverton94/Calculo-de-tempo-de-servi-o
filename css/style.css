@@ -1,0 +1,109 @@
+* {
+	list-style:none; 
+	padding:0px;
+	margin:0px;
+}
+
+body{
+    background-image: url(../img/calculadora.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    position: relative;
+    font-size: 30px;
+    color: rgba(180, 173, 109);
+    text-align: center;
+    text-shadow: #000 2px 1px 2px;
+    background-color: rgb(29, 28, 28, 0.9);
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.form ::placeholder{
+    color: rgb(180, 173, 109);
+}
+
+.field{
+    margin: 2px 2px;
+    padding: 10px 20px;
+    color: rgb(180, 173, 109);
+    border-radius: 10px;
+    border: 1px solid rgb(180, 173, 109);
+    transition: .5s;
+    margin-left: 15px; 
+    size: 25px;
+    background-color: transparent !important;
+}
+
+.btnform{
+    margin: 2px 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: rgb(180, 173, 109);
+    border-radius: 10px;
+    border: 1px solid rgb(180, 173, 109);
+    transition: .5s;
+    background-color: transparent;
+    text-shadow: #000 2px 1px 2px;
+    
+}
+
+.table{
+    text-shadow: #000 2px 1px 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+footer{
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color:#f1f1f1;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.right-col{
+    align-items: center;
+    justify-content: right;
+}
+
+@media (max-width: 1024px) {
+    .conteudo {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .conteudo {
+        width: 90%;
+    }
+}

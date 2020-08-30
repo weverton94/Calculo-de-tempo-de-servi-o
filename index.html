@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <title>Cálculo aposentadoria</title>
+    </head>
+    <body>
+        <div class="conteudo">
+            <div class="form" method="POST">
+                <h3>Tempo de Serviço</h3>
+                <input type="text" class="field" placeholder="Digite o número total de dias" id="entrada">
+                <input type="submit" class="btnform" value="Continuar" onclick="formula();">   
+                
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Ano (s): </td>
+                            <td id="anos"></td>
+                        </tr>
+                        <tr>
+                            <td>Mês (s): </td>
+                            <td id="meses"></td>
+                        </tr>
+                        <tr>
+                            <td>Dia (s): </td>
+                            <td id="dias"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-container">
+              <div class="left-col">      
+                
+                <p class="rights-text">© 2020 Weverton Sidnésio. Todos os Direitos Reservados.</p>
+                
+              </div>
+              
+              <div class="right-col">
+                <a href="#https://www.linkedin.com/in/weverton-sidnésio-0857b514a">
+                  <img src="img/linkedin.png" width="10%">
+                </a>
+                
+                <a href="#https://github.com/weverton94">
+                  <img src="img/github.png" width="10%">
+                </a>
+              </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/calculo.js"></script>
+
+    </body>
+
+</html>
