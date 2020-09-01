@@ -1,2 +1,7 @@
 # Cálculo-de-tempo-de-serviço
-Site para calcular, utilizando JavaScript, o tempo total de dias e transformá-los em anos,meses e dias.
+Site feito com intuito de auxiliar o calculo:1234: do tempo total de dias que a pessoa contribuiu, para um regime previdenciário, e transformá-los:boom: em anos,meses e dias.
+
+Linguagens:symbols: utilizadas: 
+
+:heavy_check_mark:HTML;
+:heavy_check_mark:JavaScript.
