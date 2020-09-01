@@ -3,5 +3,5 @@ Site feito com intuito de auxiliar o calculo:1234: do tempo total de dias que a 
 
 Linguagens:symbols: utilizadas: 
 
-:heavy_check_mark:HTML;
+:heavy_check_mark:HTML;</br>
 :heavy_check_mark:JavaScript.
